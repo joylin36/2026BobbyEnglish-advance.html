@@ -13,7 +13,7 @@
         * {
             box-shadow: none;
             box-sizing: border-box;
-            font-family: 'Helvetica Neue', Helvetica, Arial, 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', sans-serif;
+            font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans TC', 'Microsoft JhengHei', '微軟正黑體', sans-serif;
         }
 
         body {
@@ -151,6 +151,7 @@
             font-size: 14px;
             display: block;
             margin-bottom: 2px;
+            font-weight: bold;
         }
         th span.en-title {
             font-size: 10px;
@@ -601,18 +602,18 @@
                 </div>
                 <div class="term-item">
                     <strong>2. 請假與補課 / Leave & Make-up Lessons：</strong><br>
-                    因事 or 病假缺席者，請於上課前兩小時透過官方 LINE 或電話完成請假。完成請假者，本班將提供一對一或小組補課、輔導。無故缺課者（曠課）不予補課與退費。<br>
+                    因事或病假缺席者，請於上課前兩小時透過官方 LINE 或電話完成請假。完成請假者，本班將提供一對一或小組補課、輔導。無故缺課者（曠課）不予補課與退費。<br>
                     <span style="color: #555; font-style: italic;">In case of sick leave or personal leave, please notify the school via our official LINE account or phone at least 2 hours before class. For validated absences, the school will arrange one-on-one or small-group make-up tutoring. No make-up lessons or refunds will be provided for unexcused absences.</span>
                 </div>
                 <div class="term-item">
                     <strong>3. 安全與公共責任 / Safety & Public Liability Insurance：</strong><br>
-                    為維護學生安全，下課後請家長按時前來接送。本補習班公共安全設施、消防設備以及公共意外責任險均严格符合 government 法令規範。<br>
+                    為維護學生安全，下課後請家長按時前來接送。本補習班公共安全設施、消防設備以及公共意外責任險均嚴格符合政府法令規範。<br>
                     <span style="color: #555; font-style: italic;">To ensure student safety, parents are requested to pick up their children on time after class. Our school's public safety facilities, fire safety equipment, and public liability insurance strictly comply with government laws and regulations.</span>
                 </div>
                 <div class="term-item">
-                    <strong>4. 肖像權合理授權 / Rational Portrait Rights Authorization：</strong><br>
-                    家長同意本班在節慶活動、課堂成果中進行拍照 or 錄影，合理授權作為內部成果展示與官方推廣使用，且不損及學生名譽。<br>
-                    <span style="color: #555; font-style: italic;">Parents agree to allow the school to take photos or videos during holiday activities and class presentations. This constitutes a rational authorization for internal displays and official promotional use, ensuring that student reputation is fully protected.</span>
+                    <strong>4. 肖像權合理授權 / Portrait Rights Authorization：</strong><br>
+                    家長同意本班在節慶活動、課堂成果中進行拍照或錄影，合理授權作為內部成果展示與官方推廣使用，且不損及學生名譽。<br>
+                    <span style="color: #555; font-style: italic;">Parents agree to allow the school to take photos or videos during holiday activities and class presentations. This constitutes an authorization for internal displays and official promotional use, ensuring that student reputation is fully protected.</span>
                 </div>
             </div>
 
@@ -653,18 +654,16 @@
 </div>
 
 <script>
-// 巴比智慧總部常態課代碼艙
 var courseDatabase = {
     "Advance A1": { time: "每週三、五 4:30 PM - 6:30 PM (特調班)", lessons: 34, price: 770, materials: 2966, misc: 60 },
     "Advance A2": { time: "每週二、四 4:30 PM - 6:30 PM", lessons: 38, price: 770, materials: 3826, misc: 60 }
 };
 
-// 🎯 青少年進階班 (B1, B2, C1) 經辦人員手抄死數字庫
 var advancedDeadValues = {
     "Advance B1 新進": { "1.0": 36680, "0.9": 33400, "0.85": 31664, "0.8": 29344, time: "每週二、四晚上7:00-9:00p.m.", t: 31160, m: 3240, ms: 2280 },
     "Advance B1 晉升": { "1.0": 33940, "0.9": 30546, "0.85": 28849, "0.8": 27152, time: "每週二、四晚上7:00-9:00p.m.", t: 31160, m: 500, ms: 2280 },
     "Advance B2 新進": { "1.0": 36680, "0.9": 33012, "0.85": 31178, "0.8": 29344, time: "每週二、四晚上7:00-9:00p.m.", t: 31160, m: 3240, ms: 2280 },
-    "Advance B2 晉升": { "1.0": 33940, "0.9": 30546, "0.85": 28849, "0.8": 27152, time: "每週二、四晚上7:00-9:00p.m.", t: 31160, m: 500, ms: 2280 },
+    "Advance B2 晉升": { "1.0": 33940, "0.9": 30546, "0.85": 28849, "0.8": 27152, time: "停週二、四晚上7:00-9:00p.m.", t: 31160, m: 500, ms: 2280 },
     "Advance C1 新進": { "1.0": 17140, "0.9": 15426, "0.85": 14569, "0.8": 13712, time: "每週星期一晚上 7:00-9:00p.m.", t: 14450, m: 1840, ms: 850 },
     "Advance C1 晉升": { "1.0": 15800, "0.9": 14220, "0.85": 13430, "0.8": 12640, time: "每週星期一晚上 7:00-9:00p.m.", t: 14450, m: 500, ms: 850 }
 };
